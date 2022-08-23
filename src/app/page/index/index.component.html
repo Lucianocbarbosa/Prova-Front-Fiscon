@@ -1,5 +1,7 @@
 <app-form (eventsubmit)="addTabela($event)"></app-form>
 
+<app-table [ELEMENT_DATA]="ELEMENT_DATA"></app-table>
+
 <div *ngIf="exibirModal" class="modal">
   <mat-card>
     <mat-card-title>Casdatro Relizado com sucesso</mat-card-title>
