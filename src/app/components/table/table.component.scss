@@ -1,0 +1,81 @@
+.demo-table {
+  width: 100%;
+}
+
+table {
+  width: 100%;
+}
+
+th {
+  .toltip {
+    display: none;
+  }
+  &:hover {
+    .toltip {
+      left: 60px;
+      top: -35px;
+      display: revert;
+      position: absolute;
+      background-color: antiquewhite;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 12px 21px;
+      border-radius: 15px 15px 15px 0;
+    }
+  }
+}
+mat-form-field {
+  .toltip {
+    display: none;
+  }
+  &:hover {
+    .toltip {
+      left: 60px;
+      top: -35px;
+      display: revert;
+      position: absolute;
+      background-color: antiquewhite;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 12px 21px;
+      border-radius: 15px 15px 15px 0;
+    }
+  }
+}
+
+.demo-button-container {
+  padding-bottom: 16px;
+}
+
+.demo-button + .demo-button {
+  margin-left: 8px;
+}
+
+.mat-form-field {
+  font-size: 14px;
+  width: 100%;
+}
+.excluir {
+  // background-color: rgba(189, 5, 5, 0.883);
+  // width: 100%;
+  color: rgba(164, 8, 8, 0.856);
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(128, 128, 128, 0.6);
+  .card {
+    width: 50%;
+    height: 50%;
+    background-color: white;
+  }
+}
